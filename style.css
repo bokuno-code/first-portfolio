@@ -14,6 +14,7 @@ html {
 
 body {
     font-size: 1rem;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 li {
@@ -46,7 +47,7 @@ a {
 hero section
 ----------------------- */
 #hero {
-    background-color: #064;
+    background-color: #005B39;
     width: 100%;
     height: 100vh;
 }
@@ -87,7 +88,7 @@ hero section
 about 
 -------------------- */
 #about {
-    background-color: #063;
+    background-color: #064;
 }
 
 #about .fa-stack {
@@ -125,14 +126,14 @@ about
 portfolio
 --------------------------- */
 #portfolio {
-    background-color: #064;
+    background-color: #005B39;
 }
 
 /* -----------------
 contact
 --------------------- */
 #contact {
-    background-color: #063;
+    background-color: #064;
 }
 
 form {
@@ -194,7 +195,7 @@ form {
 
 /* footer */
 #footer {
-    background-color: #064;
+    background-color: #005B39;
 }
 
 #footer p {
