@@ -1,6 +1,10 @@
 https://bokuno-code.github.io/first-portfolio/  
 2026年2月からHTML/CSSの勉強を開始し、学習サイトでの基礎学習や模写コーディングを一通り終えたので、手始めに簡単なプロフィールサイトを作成しました。
 
+参考にさせていただいた動画：  
+https://www.youtube.com/watch?v=QCCjDlBiYV8&t=1377s  
+https://www.youtube.com/watch?v=rDTDAWxTF1A&t=1533s
+
 使用技術：HTML/CSS
 
 こだわったポイント：  
