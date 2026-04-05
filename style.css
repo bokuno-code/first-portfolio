@@ -129,6 +129,63 @@ portfolio
     background-color: #005B39;
 }
 
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.box h3 {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.box h3 a {
+    text-decoration: underline;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #064;
+    width: 32%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: top;
+}
+
+.card a {
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: lightgreen;
+    box-shadow: 1px 1px 5px;
+}
+
+.card a:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+/* 文字を左寄せするためのwidth */
+.card p {
+    width: 100%;
+    text-align: left;
+    text-decoration: underline;
+}
+
 /* -----------------
 contact
 --------------------- */
@@ -221,14 +278,6 @@ responsive
         margin-bottom: 10px;
     }
 
-    /* ----------------
-    about section
-    ----------------- */
-    #about .text {
-        width: 100%;
-    }
-
-
     /* contact section */
     #contact dl {
         flex-direction: column;
@@ -242,5 +291,13 @@ responsive
         width: 100%;
     }
 
+    /* portfolio section */
+    .box {
+        flex-direction: column;
+        gap: 20px;
+    }
 
+    .card {
+        width: 100%;
+    }
 }
