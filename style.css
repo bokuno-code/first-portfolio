@@ -130,20 +130,22 @@ portfolio
 }
 
 .box {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     width: 90%;
     margin: 0 auto;
 }
 
 .box h3 {
-    width: 100%;
     margin-bottom: 10px;
 }
 
 .box h3 a {
     text-decoration: underline;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
 }
 
 .card {
@@ -153,7 +155,6 @@ portfolio
     justify-content: center;
     gap: 10px;
     background-color: #064;
-    width: 32%;
     padding: 20px;
     border-radius: 10px;
 }
@@ -292,12 +293,7 @@ responsive
     }
 
     /* portfolio section */
-    .box {
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .card {
-        width: 100%;
+    .cards {
+        grid-template-columns: 1fr;
     }
 }
